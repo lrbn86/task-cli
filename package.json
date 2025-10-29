@@ -8,5 +8,13 @@
   },
   "author": "lrbn86",
   "license": "MIT",
-  "type": "module"
+  "type": "module",
+  "homepage": "https://github.com/lrbn86/task-cli#readme",
+  "bugs": {
+    "url": "https://github.com/lrbn86/task-cli/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lrbn86/task-cli.git"
+  },
 }

@@ -1,0 +1,12 @@
+{
+  "name": "task-cli",
+  "version": "1.0.0",
+  "description": "Manage tasks through the CLI",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "author": "lrbn86",
+  "license": "MIT",
+  "type": "module"
+}

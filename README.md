@@ -25,10 +25,10 @@ Commands:
 
 Examples:
   task-cli add "Do laundry"
-  task-cli update 1 --status completed
-  task-cli update 1 --description "Do chores"
-  task-cli update 1 --description "Do chores" --status todo
-  task-cli delete 1
+  task-cli update 2b76d754-2ba7-43a1-9ec1-9fbbbf3bd9f3 --status completed
+  task-cli update 2b76d754-2ba7-43a1-9ec1-9fbbbf3bd9f3 --description "Do chores"
+  task-cli update 2b76d754-2ba7-43a1-9ec1-9fbbbf3bd9f3 --description "Do chores" --status todo
+  task-cli delete 2b76d754-2ba7-43a1-9ec1-9fbbbf3bd9f3
   task-cli list
   task-cli list --todo
   task-cli list --done

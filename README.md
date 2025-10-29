@@ -10,6 +10,7 @@ Manage tasks through the command line interface
 1. Install node at https://nodejs.org/en/download
 2. In terminal, run `npm install -g @lrbn/task-cli` to install the `task-cli` package globally
 3. `task-cli` can now be used in the terminal
+4. WARNING: `tasks.json` file will be created in the same directory where `task-cli` is used if it does not exist!
 
 ## Usage
 Run `task-cli help` to print the following usage instruction:
@@ -37,3 +38,4 @@ Examples:
 ## Next Steps
 - Optimize for large JSON files
 - Implement short/alias IDs
+- Find a better place for tasks.json

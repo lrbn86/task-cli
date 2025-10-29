@@ -1,6 +1,6 @@
 {
   "name": "@lrbn86/task-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Manage tasks through the CLI",
   "main": "index.js",
   "scripts": {

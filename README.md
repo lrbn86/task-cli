@@ -20,11 +20,16 @@ Commands:
   add <description>                        Add a new task with given description
   update <id> [--description] [--status]   Update a task's description and/or status
   delete <id>                              Delete a task by ID
+  list [--todo | --done]                   List all tasks by optional filter: todo or done
   help                                     Show this message
 
 Examples:
   task-cli add "Do laundry"
   task-cli update 1 --status completed
+  task-cli update 1 --description "Do chores"
   task-cli update 1 --description "Do chores" --status todo
   task-cli delete 1
+  task-cli list
+  task-cli list --todo
+  task-cli list --done
 ```

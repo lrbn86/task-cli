@@ -25,7 +25,7 @@ Commands:
 
 Examples:
   task-cli add "Do laundry"
-  task-cli update 2b76d754-2ba7-43a1-9ec1-9fbbbf3bd9f3 --status completed
+  task-cli update 2b76d754-2ba7-43a1-9ec1-9fbbbf3bd9f3 --status done
   task-cli update 2b76d754-2ba7-43a1-9ec1-9fbbbf3bd9f3 --description "Do chores"
   task-cli update 2b76d754-2ba7-43a1-9ec1-9fbbbf3bd9f3 --description "Do chores" --status todo
   task-cli delete 2b76d754-2ba7-43a1-9ec1-9fbbbf3bd9f3
@@ -33,3 +33,7 @@ Examples:
   task-cli list --todo
   task-cli list --done
 ```
+
+## Next Steps
+- Optimize for large JSON files
+- Implement short/alias IDs

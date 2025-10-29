@@ -14,7 +14,7 @@ Manage tasks through the command line interface
 ## Usage
 Run `task-cli help` to print the following usage instruction:
 ```
-task-cli <command> [options]
+usage: task-cli <command> [options]
 
 Commands:
   add <description>                        Add a new task with given description
